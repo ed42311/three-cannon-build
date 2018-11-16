@@ -3,7 +3,6 @@ const path = require('path')
 
 // initialize option constants
 const PORT = process.env.PORT || 5000;
-const MONGODB_OPTS = { useCreateIndex: true, useNewUrlParser: true }
 // const config = require('./config')
 
 const app = express();
