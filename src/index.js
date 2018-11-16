@@ -1,10 +1,10 @@
-import * as CANNON from 'cannon';
+THREE = require('three')
+CANNON = require('cannon')
 
+import wr from './worldRender'
 
-const WORLD = new CANNON.World();
-const SCENE = new THREE.Scene();
-const cannonDebugRenderer = new THREE.CannonDebugRenderer( WORLD, SCENE );
-
+wr()
+console.log("hello")
 
 // To use the tool, you have to do two simple things.
 
